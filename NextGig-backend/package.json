@@ -1,0 +1,37 @@
+{
+  "name": "nextgig-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the NextGig. Built with express and MongoDB to manage job applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerWatkins0513/NextGig.git"
+  },
+  "keywords": [
+    "Next",
+    "Gig",
+    "Express",
+    "React",
+    "Mongo",
+    "backend",
+    "main",
+    "frontend"
+  ],
+  "author": "Tyler Watkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerWatkins0513/NextGig/issues"
+  },
+  "homepage": "https://github.com/TylerWatkins0513/NextGig#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0"
+  }
+}
